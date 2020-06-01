@@ -1,0 +1,15 @@
+{
+  "name": "@zeke/package-postinstall-test",
+  "version": "1.0.12",
+  "description": "A thing to test npm postinstall scripts",
+  "main": "index.js",
+  "repository": "https://github.com/zeke/package-postinstall-test",
+  "author": "zeke",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node script/postinstall.js"
+  },
+  "dependencies": {
+    "read-pkg-up": "^7.0.1"
+  }
+}
